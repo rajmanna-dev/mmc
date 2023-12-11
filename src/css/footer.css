@@ -14,7 +14,7 @@ footer {
 
 .list-items h3 {
   color: #fff;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   margin-bottom: 10px;
 }
 
@@ -24,6 +24,7 @@ footer {
   display: flex;
   flex-direction: column;
   color: red;
+  font-size: 0.8rem;
 }
 
 .list-items ul li:hover {
@@ -38,6 +39,7 @@ footer {
 
 footer p {
   text-align: center;
+  font-size: 0.8rem;
   color: #fff;
 }
 
