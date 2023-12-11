@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.panel {
+  width: 100%;
+  height: 480px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.panel > img {
+  width: 100%;
+  min-width: 100%;
+  height: 100%;
+}
+
+.panel-button {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #061336;
+  height: 50px;
+  width: 40px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.panel-button:hover {
+  background-color: #ffddd2;
+  color: #a4133c;
+}
+
+.left-button {
+  left: 0;
+}
+
+.right-button {
+  right: 0;
+}
+
+.panel-text {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  bottom: 100px;
+}
+
+.panel-heading {
+  font-size: 2.8rem;
+  color: #fff;
+  margin: 0;
+}
+
+.panel-text p {
+  font-size: 1.4rem;
+  color: #fff;
+  margin: 8px 0 0 0;
+}
+
+.panel hr {
+  position: absolute;
+  bottom: 12px;
+  border: dotted #f2e9e4 10px;
+  border-bottom: none;
+  width: 50px;
+}
+
+@media(max-width: 678px) {
+  .panel {
+    height: 240px;
+  }
+
+  .panel-text {
+    bottom: 35px;
+  }
+
+  .panel-heading {
+    font-size: 1.5rem;
+  }
+
+  .panel-text p {
+    font-size: 1.2rem;
+  }
+
+  .panel hr {
+    bottom: 5px;
+    border-width: 8px;
+  }
+}
